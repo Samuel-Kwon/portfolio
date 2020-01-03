@@ -1,0 +1,22 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+}
+
+.header{
+    background-image: url(/image/background.png);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: white;
+    font-family: Raleway, "Open Sans", sans-serif;
+    
+}
+
+.highlight{
+    /* color: rgb(41, 164, 212); */
+}
