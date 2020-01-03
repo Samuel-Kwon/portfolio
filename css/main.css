@@ -1,6 +1,26 @@
 body, html{
     height: 100%;
     margin: 0%;
+    padding: 0%;
+}
+
+a{
+    color:inherit !important;
+}
+
+nav{
+    color: white !important;
+}
+
+#ABOUT{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#PROJECT{
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .header{
@@ -9,18 +29,48 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    flex-direction: column;
 }
 
-.About{
-    height: 400px;
+.header-bar{
+    margin: 25px auto 75px auto;
+    width: 70px;
+    height: 4px;
+    background: #444649;
+}
+
+.content{
     width: 1150px;
-    margin: 100px auto 0 auto;
+    margin: 0px auto;
+    padding: 0%;
 }
 
-.text{
+.about-header{
+    text-align: center;
+    padding: 100px auto 0 auto;
+    font-weight: bold;
+    color: #444649
+}
+
+.project-header{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    font-weight: bold;
+    color: #444649
+}
+
+.h1-name{
     color: white;
     font-family: Raleway, "Open Sans", sans-serif;
+    font-size: 80px;
+}
+
+.h2-position{
+    color: white;
+    font-family: Raleway, "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
 }
 
 .profile-picture{
@@ -40,4 +90,9 @@ body, html{
 .skill-p{
     font-size:140%;
     margin: 0 0 0 30px;
+}
+
+.icon{
+    font-size:80px;
+    color: white;
 }
