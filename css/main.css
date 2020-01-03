@@ -9,14 +9,35 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+.About{
+    height: 400px;
+    width: 1150px;
+    margin: 100px auto 0 auto;
 }
 
 .text{
     color: white;
     font-family: Raleway, "Open Sans", sans-serif;
-    
 }
 
-.highlight{
-    /* color: rgb(41, 164, 212); */
+.profile-picture{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+    display: block;
+    float: left;
+}
+
+.intro-p{
+    font-size: 120%;
+}
+
+.skill-p{
+    font-size:140%;
+    margin: 0 0 0 30px;
 }
