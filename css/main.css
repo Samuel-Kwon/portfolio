@@ -45,12 +45,11 @@ nav{
 
 .footer{
     background-color: #1B242F;
-    height: 10vh;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    
 }
 
 .header-bar{
@@ -119,9 +118,21 @@ nav{
     margin: 0 0 0 30px;
 }
 
+.hobby-p{
+    font-size:300%;
+    font-weight: bold;
+}
+
 .icon{
     font-size:80px;
     color: white;
+}
+
+.footer-icon{
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    right: 10%;
 }
 
 .container{
@@ -152,4 +163,28 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+.guitar-video{
+    float: left;
+    margin-right: 50px;
+}
+
+.img-frisbee{
+    width: 575px;
+    height: 315px;
+    float: right;
+}
+
+.img-videoGame{
+    width: 575px;
+    height: 315px;
+    float: left;
+}
+
+.hobby-content{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
