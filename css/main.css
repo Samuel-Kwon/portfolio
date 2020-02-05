@@ -4,6 +4,10 @@ body, html{
     padding: 0%;
 }
 
+button:focus{
+    outline: 0;
+}
+
 a{
     color:inherit !important;
 }
@@ -66,6 +70,13 @@ nav{
     background: white;
 }
 
+.thanks-bar-white{
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background: white;
+}
+
 .content{
     width: 1150px;
     margin: 0px auto;
@@ -123,6 +134,22 @@ nav{
     font-weight: bold;
 }
 
+.contact-p{
+    font-size: 125%;
+    color: white;
+    text-align: center;
+}
+
+
+.popUpScreen-p{
+    margin: 50px 40px 40px 40px;
+}
+
+.popUpScreen-p h1{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
 .icon{
     font-size:80px;
     color: white;
@@ -165,9 +192,14 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.guitar-video{
+.video-guitar{
     float: left;
     margin-right: 50px;
+}
+
+.video-avoidRock{
+    margin: 0;
+    display: block;
 }
 
 .img-frisbee{
@@ -182,9 +214,136 @@ input[type=submit]:hover {
     float: left;
 }
 
+.img-avoidRock{
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.img-pubgWeaponList-square{
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.img-pubgWeaponList{
+    width: 796px;
+}
+
 .hobby-content{
     display: inline-block;
     width: 100%;
     text-align: center;
     margin-top: 50px;
+}
+.popUpScreen{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 798px;
+    max-width: 80%;
+}
+
+.popUpScreen-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 798px;
+}
+
+.close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.project-body{
+    text-align: center;
+}
+
+.project-content{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    position:relative;
+    width:300px;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.project-onHover {
+      opacity:0;
+      font-size: 20px;
+      position:absolute;
+      top: 0;
+      left:0;
+      color:black;
+      background-color:rgb(245, 245, 245, 0.7);
+      width:300px;
+      height:300px;
+      -webkit-transition: all 400ms ease-out;
+      -moz-transition: all 400ms ease-out;
+      -o-transition: all 400ms ease-out;
+      -ms-transition: all 400ms ease-out;
+      transition: all 400ms ease-out;
+      text-align:center;
+}
+
+.project-content .project-onHover:hover { opacity:1; }      
+.project-content .project-onHover .text {
+    height: 0;
+    opacity:1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+}
+
+.project-content .project-onHover .readMore {
+    opacity:1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+}
+
+.project-content .project-onHover:hover .text {
+    opacity:1;
+    transform: translateY(250px);
+    -webkit-transform: translateY(75px);
+}
+
+.project-content .project-onHover:hover .readMore {
+    padding: 0 50px;
+    border: 2px solid black;
+    opacity:1;
+    transform: translateY(250px);
+    -webkit-transform: translateY(150px);
+}
+
+.project-content .project-onHover:hover .readMore:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.a{
+    border: 1px solid black;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.5)
 }
