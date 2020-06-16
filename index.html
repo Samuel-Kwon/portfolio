@@ -34,9 +34,9 @@
         <h2 class="h2-position">Full-Stack Developer - Kitchener, Ontario</h2>
 
         <div class="icon">
-            <a href="https://www.facebook.com/Samuel4938"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/samuel__0928"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/samuel-seonje-kwon"><i class="fa fa-linkedin-square"></i></a>
             <a href="https://github.com/Samuel-Kwon"><i class="fab fa-github-square"></i></a>
+            <a href="mailto:ziz79646@gmail.com"><i class="fa fa-envelope-square"></i></a>
         </div>
     </div>
 
@@ -46,7 +46,7 @@
             <div class="header-bar"></div>
     
             <img class="profile-picture" src="image/SamuelKwon.jpg">
-            <p class="intro-p">Hello, I am <strong>Samuel Kwon</strong>, full stack developer based in Kitchener, Ontario. 
+            <p class="skill-p">Hello, I am <strong>Samuel Kwon</strong>, full-stack developer based in Kitchener, Ontario. 
                 I have passion for both Front-End and Back-End, but more of Back-Ends.</p>
             <h2 style="text-align: center; margin: 30px 0 0 0">Skills</h2>
             <span class="skill-p">
@@ -65,7 +65,7 @@
 
             <div class="project-body">
                 <div class="project-content" id="project-content" onclick="DisplayPopUpScreen1()">
-                    <img class="img-avoidRock" src="image/avoidRock.png" alt="">
+                    <img class="img-square" src="image/avoidRock.png" alt="">
     
                     <div class="project-onHover">
                         <p class="text">AvoidRock</p>
@@ -74,7 +74,7 @@
                 </div>
     
                 <div class="project-content" id="project-content" onclick="return DisplayPopUpScreen2()">
-                    <img class="img-pubgWeaponList-square" src="image/pubg-weapon-list-square.png" alt="">
+                    <img class="img-square" src="image/pubg-weapon-list-square.png" alt="">
     
                     <div class="project-onHover">
                         <p class="text">Pubg Weapon List</p>
@@ -82,9 +82,12 @@
                     </div>
                 </div>
     
-                <div class="project-content" id="project-content">
-                    <div class="a">
+                <div class="project-content" id="project-content" onclick="return DisplayPopUpScreen3()">
+                    <img class="img-square" src="image/find-my-school-square.PNG" alt="">
     
+                    <div class="project-onHover">
+                        <p class="text">Find My School</p>
+                        <button class="readMore" onclick="return DisplayPopUpScreen3()">Read More</button>
                     </div>
                 </div>
             </div>           
@@ -93,7 +96,7 @@
 
     <div class="popUpScreen" id="popUpScreen1">
         <div class="popUpScreen-header">
-            <div calss="title">Avoid Rock</div>
+            <div calss="title">Avoid Rock</div> 
             <button class="close-button" onclick="return ClosePopUpScreen()">&times;</button c>
         </div>
         <div>
@@ -107,9 +110,8 @@
                     You can move your Hero with arrow key pad, try not to get hit by the rock!
                     If you survived more than 20 secs, you will be entered to level 2 where rocks shoots more frequntly.
                     Your survived time is your score, and it will be displayed on the top left corner while you playing.
-                    You can download this game on 
-                    <a href="https://github.com/Samuel-Kwon/AvoidRock">https://github.com/Samuel-Kwon/AvoidRock</a>.
                 </p>
+                <span class="popUpScreen-link"><a href="https://github.com/Samuel-Kwon/AvoidRock">Open GitHub</a></span>
             </div>
         </div>
     </div>
@@ -124,13 +126,24 @@
 
             <div class="popUpScreen-p">
                 <h1>PUBG Weapon List</h1>
-                <p class="text">AvoidRock is a c# monogame. The purpose of this game is very simple. Survive Longer!
-                    You can move your Hero with arrow key pad, try not to get hit by the rock!
-                    If you survived more than 20 secs, you will be entered to level 2 where rocks shoots more frequntly.
-                    Your survived time is your score, and it will be displayed on the top left corner while you playing.
-                    You can download this game on 
-                    <a href="https://github.com/Samuel-Kwon/AvoidRock">https://github.com/Samuel-Kwon/AvoidRock</a>.
-                </p>
+                <p>PUBG Weapon List is a website that allows you to add, edit, view, and delete all the weapons from PUBG.</p>
+                <span class="popUpScreen-link"><a href="https://github.com/Samuel-Kwon/pubg-weapon-list">Open GitHub</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="popUpScreen" id="popUpScreen3">
+        <div class="popUpScreen-header">
+            <div calss="title">Find My School</div>
+            <button class="close-button" onclick="return ClosePopUpScreen()">&times;</button c>
+        </div>
+        <div class="popUpScreen-content">
+            <img class="img-findMySchool" src="image/find-my-school.png" alt="">
+
+            <div class="popUpScreen-p">
+                <h1>Find My School</h1>
+                <p>PUBG Weapon List is a website that allows you to add, edit, view, and delete all the weapons from PUBG.</p>
+                <span class="popUpScreen-link"><a href="https://github.com/Samuel-Kwon/pubg-weapon-list">Open GitHub</a></span>
             </div>
         </div>
     </div>

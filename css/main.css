@@ -200,6 +200,7 @@ input[type=submit]:hover {
 .video-avoidRock{
     margin: 0;
     display: block;
+    outline: none;
 }
 
 .img-frisbee{
@@ -214,19 +215,17 @@ input[type=submit]:hover {
     float: left;
 }
 
-.img-avoidRock{
-    margin-bottom: 50px;
-    width: 300px;
-    height: 300px;
-}
-
-.img-pubgWeaponList-square{
+.img-square{
     margin-bottom: 50px;
     width: 300px;
     height: 300px;
 }
 
 .img-pubgWeaponList{
+    width: 796px;
+}
+
+.img-findMySchool{
     width: 796px;
 }
 
@@ -257,6 +256,14 @@ input[type=submit]:hover {
     align-items: center;
     border-bottom: 1px solid black;
     width: 798px;
+}
+
+.popUpScreen-link {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
 }
 
 .close-button{
