@@ -22,8 +22,8 @@ function ClosePopUpScreen()
     document.getElementById("popUpScreen2").style.display = 'none';
     document.getElementById("popUpScreen3").style.display = 'none';
     
-    document.getElementById("video-avoidRock").pause();
-    document.getElementById("video-avoidRock").currentTime = 0;
+    document.getElementById("popUpScreen-video").pause();
+    document.getElementById("popUpScreen-video").currentTime = 0;
 
     document.getElementById("overlay").style.display = 'none';
 

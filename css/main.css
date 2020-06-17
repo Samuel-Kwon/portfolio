@@ -150,6 +150,12 @@ nav{
     border-bottom: 2px solid #c0c0c0;
 }
 
+.popUpScreen-video {
+    width: 100%;
+    display: block;
+    outline: none;
+}
+
 .icon{
     font-size:80px;
     color: white;
@@ -195,12 +201,6 @@ input[type=submit]:hover {
 .video-guitar{
     float: left;
     margin-right: 50px;
-}
-
-.video-avoidRock{
-    margin: 0;
-    display: block;
-    outline: none;
 }
 
 .img-frisbee{
