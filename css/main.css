@@ -38,6 +38,8 @@ nav{
     background-color: #252934
 }
 
+
+
 .header{
     background-image: url(../image/background.png);
     min-height: 100vh;
@@ -134,10 +136,10 @@ nav{
     font-weight: bold;
 }
 
-.contact-p{
-    font-size: 125%;
+.contact-h2{
     color: white;
     text-align: center;
+    margin: 150px 0;
 }
 
 
