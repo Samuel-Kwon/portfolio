@@ -35,7 +35,8 @@ nav{
 #CONTACT{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #252934
+    background-color: #252934;
+    height: 50%;
 }
 
 
@@ -162,6 +163,13 @@ nav{
     font-size:80px;
     color: white;
 }
+
+.contact-icon {
+    font-size:80px;
+    color: white;
+    text-align: center;
+}
+
 
 .footer-icon{
     font-size: 20px;
