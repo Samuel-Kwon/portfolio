@@ -1,47 +1,45 @@
-body, html{
+body, html {
     height: 100%;
     margin: 0%;
     padding: 0%;
 }
 
-button:focus{
+button:focus {
     outline: 0;
 }
 
-a{
+a {
     color:inherit !important;
 }
 
-nav{
+nav {
     color: white !important;
 }
 
-#ABOUT{
+#about {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#PROJECT{
+#project {
     background-color: #F5F5F5;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#HOBBY{
+#hobby {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#CONTACT{
+#contact {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #252934;
     height: 50%;
 }
 
-
-
-.header{
+.header {
     background-image: url(../image/background.png);
     min-height: 100vh;
     display: flex;
@@ -50,7 +48,7 @@ nav{
     flex-direction: column;
 }
 
-.footer{
+.footer {
     background-color: #1B242F;
     height: 70px;
     display: flex;
@@ -59,61 +57,65 @@ nav{
     color: white;
 }
 
-.header-bar{
+.header-bar {
     margin: 25px auto 75px auto;
     width: 70px;
     height: 4px;
     background: #444649;
 }
 
-.header-bar-white{
+.header-bar-white {
     margin: 25px auto 75px auto;
     width: 70px;
     height: 4px;
     background: white;
 }
 
-.thanks-bar-white{
+.thanks-bar-white {
     display: inline-block;
     width: 70px;
     height: 4px;
     background: white;
 }
 
-.content{
+.content {
     width: 1150px;
     margin: 0px auto;
     padding: 0%;
 }
 
-.section-header{
+.section-header {
     text-align: center;
     padding-top: 50px;
     font-weight: bold;
     color: #444649
 }
 
-.section-header-white{
+.section-header-white {
     text-align: center;
     padding-top: 50px;
     font-weight: bold;
     color: white;
 }
 
-.h1-name{
+.skill-header {
+    margin: 30px 0 0 10px;
+}
+
+.h1-name {
     color: white;
     font-family: Raleway, "Open Sans", sans-serif;
     font-size: 80px;
 }
 
-.h2-position{
+.h2-position {
     color: white;
     font-family: Raleway, "Open Sans", sans-serif;
     font-size: 20px;
     margin-top: 0;
 }
 
-.profile-picture{
+.profile-picture {
     border-radius: 50%;
     width: 250px;
     height: 250px;
@@ -123,32 +125,32 @@ nav{
     float: left;
 }
 
-.intro-p{
+.intro-p {
     font-size: 120%;
 }
 
-.skill-p{
+.skill-p {
     font-size:140%;
     margin: 0 0 0 30px;
 }
 
-.hobby-p{
+.hobby-p {
     font-size:300%;
     font-weight: bold;
 }
 
-.contact-h2{
+.contact-h2 {
     color: white;
     text-align: center;
     margin: 150px 0;
 }
 
 
-.popUpScreen-p{
+.popUpScreen-p {
     margin: 50px 40px 40px 40px;
 }
 
-.popUpScreen-p h1{
+.popUpScreen-p h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid #c0c0c0;
 }
@@ -159,7 +161,7 @@ nav{
     outline: none;
 }
 
-.icon{
+.icon {
     font-size:80px;
     color: white;
 }
@@ -171,14 +173,14 @@ nav{
 }
 
 
-.footer-icon{
+.footer-icon {
     font-size: 20px;
     color:white;
     position: absolute;
     right: 10%;
 }
 
-.container{
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -208,44 +210,44 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.video-guitar{
+.video-guitar {
     float: left;
     margin-right: 50px;
 }
 
-.img-frisbee{
+.img-frisbee {
     width: 575px;
     height: 315px;
     float: right;
 }
 
-.img-videoGame{
+.img-videoGame {
     width: 575px;
     height: 315px;
     float: left;
 }
 
-.img-square{
+.img-square {
     margin-bottom: 50px;
     width: 300px;
     height: 300px;
 }
 
-.img-pubgWeaponList{
+.img-pubgWeaponList {
     width: 796px;
 }
 
-.img-findMySchool{
+.img-findMySchool {
     width: 796px;
 }
 
-.hobby-content{
+.hobby-content {
     display: inline-block;
     width: 100%;
     text-align: center;
     margin-top: 50px;
 }
-.popUpScreen{
+.popUpScreen {
     display: none;
     position: fixed;
     top: 50%;
@@ -259,7 +261,7 @@ input[type=submit]:hover {
     max-width: 80%;
 }
 
-.popUpScreen-header{
+.popUpScreen-header {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
@@ -276,7 +278,7 @@ input[type=submit]:hover {
     font-size: 15px;
 }
 
-.close-button{
+.close-button {
     cursor: pointer;
     border: none;
     outline: none;
@@ -285,11 +287,11 @@ input[type=submit]:hover {
     font-weight: bold;
 }
 
-.project-body{
+.project-body {
     text-align: center;
 }
 
-.project-content{
+.project-content {
     display: inline-block;
     margin: 0 20px 0 20px;
     position:relative;
@@ -348,14 +350,7 @@ input[type=submit]:hover {
     background-color: rgb(221, 216, 216);
 }
 
-.a{
-    border: 1px solid black;
-    margin-bottom: 50px;
-    width: 300px;
-    height: 300px;
-}
-
-.overlay{
+.overlay {
     display: none;
     position: fixed;
     top: 0%;
