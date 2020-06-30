@@ -15,8 +15,9 @@ nav {
     color: white !important;
     background-color: #222222;
     top: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav ul {
