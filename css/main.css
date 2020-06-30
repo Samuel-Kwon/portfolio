@@ -250,7 +250,7 @@ input[type=submit]:hover {
 }
 
 .img-pubgWeaponList {
-    width: 796px;
+    width: 100%;
 }
 
 .img-findMySchool {
@@ -276,6 +276,7 @@ input[type=submit]:hover {
     margin-top: 50px;
 }
 .popUpScreen {
+    overflow: scroll;
     display: none;
     position: fixed;
     top: 50%;
@@ -285,7 +286,8 @@ input[type=submit]:hover {
     border-radius: 10px;
     z-index: 10;
     background-color: white;
-    width: 798px;
+    width: 60%;
+    height: 80%;
     max-width: 80%;
 }
 
