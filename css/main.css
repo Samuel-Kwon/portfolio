@@ -13,6 +13,37 @@ a {
 
 nav {
     color: white !important;
+    background-color: #222222;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    height: 100%;
+    padding: 15px 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 14px;
+    padding: 15px;
+    margin: 0;
+}
+
+.navbar-header {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 #about {
@@ -26,7 +57,7 @@ nav {
     padding-bottom: 50px;
 }
 
-#hobby {
+#passion {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -118,8 +149,7 @@ nav {
     border-radius: 50%;
     width: 250px;
     height: 250px;
-    margin-right: 80px;
-    margin-bottom: 60px;
+    margin: 0 80px 100px 0;
     display: block;
     float: left;
 }
@@ -133,9 +163,12 @@ nav {
     margin: 0 0 0 30px;
 }
 
-.hobby-p {
+.passion-p {
     font-size:300%;
     font-weight: bold;
+    width: 50%;
+    height: 50%;
+
 }
 
 .contact-h2 {
@@ -209,23 +242,6 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.video-guitar {
-    float: left;
-    margin-right: 50px;
-}
-
-.img-frisbee {
-    width: 575px;
-    height: 315px;
-    float: right;
-}
-
-.img-videoGame {
-    width: 575px;
-    height: 315px;
-    float: left;
-}
-
 .img-square {
     margin-bottom: 50px;
     width: 300px;
@@ -240,8 +256,20 @@ input[type=submit]:hover {
     width: 796px;
 }
 
-.hobby-content {
-    display: inline-block;
+.video-responsive {
+    width: 50%;
+    height: 50%;
+}
+
+.video-guitar{
+    position: relative;
+    width: 100%;
+}
+
+.passion-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     text-align: center;
     margin-top: 50px;
@@ -357,4 +385,137 @@ input[type=submit]:hover {
     left: 0%;
     bottom: 0%;
     background: rgba(0, 0, 0, 0.5)
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1500px) {
+    .content{
+        width: 80%;
+    }
+
+    .profile-picture {
+        margin: 40px 80px 80px 0;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .skill-p {
+        font-size: 120%;
+    }
+
+    .profile-picture {
+        width: 220px;
+        height: 220px;
+    }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .section-header-white {
+        font-size: 30px;
+    }
+    
+    .passion-p {
+        font-size: 36px;
+    }
+
+    .skill-header {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .img-square {
+        width: 270px;
+        height: 270px;
+    }
+
+    .project-content {
+        width: 270px;
+    }
+
+    .project-onHover {
+        width: 270px;
+        height: 270px;
+    }
+ }
+
+@media screen and (max-width: 850px) {
+   .h1-name {
+       font-size: 60px;
+   }
+
+   .h2-position {
+       font-size: 15px;
+   }
+
+   .icon {
+       font-size: 60px;
+   }
+
+   .nav > a {
+       font-size: 10px;
+   }
+
+   .content {
+       width: 90%;
+   }
+}
+
+@media screen and (max-width: 750px) {
+    .skill-p {
+        font-size: 100%;
+    }
+
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-header {
+        font-size: 25px;
+    }
+
+    .section-header-white {
+        font-size: 25px;
+    }
+    
+    .passion-p {
+        font-size: 32px;
+    }
+
+    .skill-header {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .skill-p {
+        font-size: 100%;
+    }
+
+    .profile-picture {
+        width: 190px;
+        height: 190px;
+        margin-right: 20px;
+    }
+
+    .section-header {
+        font-size: 25px;
+    }
+
+    .section-header-white {
+        font-size: 25px;
+    }
+    
+    .passion-p {
+        font-size: 32px;
+    }
+
+    .skill-header {
+        font-size: 20px;
+    }
 }
