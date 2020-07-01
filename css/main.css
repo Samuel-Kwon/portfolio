@@ -589,6 +589,15 @@ input[type=submit]:hover {
 
     .popUpScreen {
         height: 50%;
+        width: 70%;
+    }
+
+    .popUpScreen-p h1 {
+        font-size: 15px;
+    }
+
+    .popUpScreen-p p {
+        font-size: 12px;
     }
 }
 
