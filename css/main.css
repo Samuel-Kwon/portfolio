@@ -588,8 +588,8 @@ input[type=submit]:hover {
     }
 
     .popUpScreen {
-        height: 50%;
-        width: 70%;
+        height: 70%;
+        width: 80%;
     }
 
     .popUpScreen-p h1 {
