@@ -586,6 +586,10 @@ input[type=submit]:hover {
     .passion-p {
         display: none;
     }
+
+    .popUpScreen {
+        height: 50%;
+    }
 }
 
 @media screen and (max-width: 415px) {
