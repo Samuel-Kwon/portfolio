@@ -297,7 +297,7 @@ input[type=submit]:hover {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    width: 798px;
+    width: 100%;
 }
 
 .popUpScreen-link {
