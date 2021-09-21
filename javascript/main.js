@@ -16,11 +16,18 @@ function DisplayPopUpScreen3()
     document.getElementById("popUpScreen3").style.display = 'block';
 }
 
+function DisplayPopUpScreen4()
+{
+    document.getElementById("overlay").style.display = 'block';
+    document.getElementById("popUpScreen4").style.display = 'block';
+}
+
 function ClosePopUpScreen()
 {
     document.getElementById("popUpScreen1").style.display = 'none';
     document.getElementById("popUpScreen2").style.display = 'none';
     document.getElementById("popUpScreen3").style.display = 'none';
+    document.getElementById("popUpScreen4").style.display = 'none';
     
     document.getElementById("popUpScreen-video").pause();
     document.getElementById("popUpScreen-video").currentTime = 0;

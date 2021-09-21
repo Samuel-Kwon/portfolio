@@ -90,6 +90,15 @@
                         <button class="readMore" onclick="return DisplayPopUpScreen3()">Read More</button>
                     </div>
                 </div>
+
+                <div class="project-content" id="project-content" onclick="return DisplayPopUpScreen4()">
+                    <img class="img-square" src="image/my-music-journey-square.jpg" alt="">
+    
+                    <div class="project-onHover">
+                        <p class="text">My Music Journey</p>
+                        <button class="readMore" onclick="return DisplayPopUpScreen4()">Read More</button>
+                    </div>
+                </div>
             </div>           
         </div>
     </section>
@@ -159,6 +168,24 @@
         </div>
     </div>
 
+    <div class="popUpScreen" id="popUpScreen4">
+        <div class="popUpScreen-header">
+            <div calss="title">My Music Journey</div>
+            <button class="close-button" onclick="return ClosePopUpScreen()">&times;</button c>
+        </div>
+        <div class="popUpScreen-content">
+            <img class="img-myMusicJourney" src="image/my-music-journey.jpg" alt="">
+
+            <div class="popUpScreen-p">
+                <h1>My Music Journey</h1>
+                <p>Created a web application to store and view my guitar playing videos</p>
+                <p><strong>Duration</strong>: July 27, 2020 - Current</p>
+                <p><strong>Language</strong>: React.js</p>
+                <span class="popUpScreen-link"><a href="https://github.com/Samuel-Kwon/my-music-journey" target="_blank">Open GitHub</a></span>
+            </div>
+        </div>
+    </div>
+
     <div class="overlay" id="overlay" onclick="return ClosePopUpScreen()">
 
     </div>
@@ -196,7 +223,7 @@
         </section>
 
     <div class="footer">
-        <p style="margin: 0;">2020 © designed and developed by Samuel Kwon</p>
+        <p style="margin: 0;">2021 © designed and developed by Samuel Kwon</p>
     </div>
 
 

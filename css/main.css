@@ -257,6 +257,10 @@ input[type=submit]:hover {
     width: 796px;
 }
 
+.img-myMusicJourney {
+    width: 100%;
+}
+
 .video-responsive {
     width: 50%;
     height: 50%;
